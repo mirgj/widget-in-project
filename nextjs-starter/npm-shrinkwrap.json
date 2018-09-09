@@ -12318,6 +12318,14 @@
       "integrity": "sha512-2NpiFHqC87y/zFke0fC0spBXL3bBsoh/p5H1EFhshxjCR5+0g2d6BiXbUFz9v1sAcxsk2htp2eQnNIci2dIYcA==",
       "dev": true
     },
+    "node-dir": {
+      "version": "0.1.17",
+      "resolved": "https://registry.npmjs.org/node-dir/-/node-dir-0.1.17.tgz",
+      "integrity": "sha1-X1Zl2TNRM1yqvvjxxVRRbPXx5OU=",
+      "requires": {
+        "minimatch": "3.0.4"
+      }
+    },
     "node-fetch": {
       "version": "1.7.3",
       "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-1.7.3.tgz",
@@ -15033,6 +15041,15 @@
         }
       }
     },
+    "transfer-webpack-plugin": {
+      "version": "0.1.4",
+      "resolved": "https://registry.npmjs.org/transfer-webpack-plugin/-/transfer-webpack-plugin-0.1.4.tgz",
+      "integrity": "sha1-a1re3FjLqondy5606Q429nZV7XY=",
+      "requires": {
+        "node-dir": "0.1.17",
+        "vow": "0.4.18"
+      }
+    },
     "trim": {
       "version": "0.0.1",
       "resolved": "https://registry.npmjs.org/trim/-/trim-0.0.1.tgz",
@@ -15493,6 +15510,11 @@
       "requires": {
         "indexof": "0.0.1"
       }
+    },
+    "vow": {
+      "version": "0.4.18",
+      "resolved": "https://registry.npmjs.org/vow/-/vow-0.4.18.tgz",
+      "integrity": "sha512-7QGozxlOhour77BCQbbyW5XFP8ioIz/DPK67IyO3DnJtF0WXrXueMwqrYFM9yqyfgENcyxL+vktz2oJeZfdWtw=="
     },
     "walk": {
       "version": "2.3.9",

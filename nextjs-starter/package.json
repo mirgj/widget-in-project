@@ -36,6 +36,7 @@
     "react-transition-group": "^2.4.0",
     "reactstrap": "^6.3.0",
     "sass-loader": "^7.0.3",
+    "transfer-webpack-plugin": "^0.1.4",
     "universal-cookie": "^2.2.0"
   },
   "devDependencies": {

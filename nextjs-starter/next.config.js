@@ -37,7 +37,7 @@ module.exports = {
 
     config.plugins.push(
       new TransferWebpackPlugin([
-        { from: 'node_modules/fakeloader/build/static', to: 'static/' }
+        { from: 'node_modules/fakeloader/build/static', to: '../static/' }
       ])
     );
     return config

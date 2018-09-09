@@ -17,6 +17,7 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props} navmenu={false} container={false}>
+        <link rel="stylesheet" href="/static/css/main.6e11753d.css" />
         <Jumbotron
           className="text-light rounded-0"
           style={{

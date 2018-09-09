@@ -88,6 +88,7 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
+      'static': path.resolve(__dirname, 'static')
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).
@@ -134,8 +135,10 @@ module.exports = {
             test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/, /\.svg$/],
             loader: require.resolve('url-loader'),
             options: {
-              limit: 10000,
-              name: 'static/media/[name].[hash:8].[ext]',
+              fallback: "file-loader",
+              limit: 1,
+              name: 'media/[name].[hash:8].[ext]',
+              outputPath: 'static/',
             },
           },
           // Process JS with Babel.
